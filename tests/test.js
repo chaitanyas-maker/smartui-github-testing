@@ -35,7 +35,7 @@ async function searchTextOnGoogle() {
     accessKey: KEY,
     name: "test session", // name of the test
     build: platform + browserName + version, // name of the build
-    "smartUI.project": "github-integration-demo",
+    "smartUI.project": "github-app-test-0922",
     github: {
       url: process.env.GITHUB_URL,
     },
@@ -74,7 +74,7 @@ async function startTest(gridUrl, capabilities, name) {
 
   // navigate to a url
   let url = "https://www.lambdatest.com";
-  url = "https://www.lambdatest.com/enterprise";
+  url = "https://www.lambdatest.com/pricing";
   console.log(url);
   await driver
     .get(url)
