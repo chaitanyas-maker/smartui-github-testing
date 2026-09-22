@@ -74,7 +74,7 @@ async function startTest(gridUrl, capabilities, name) {
 
   // navigate to a url
   let url = "https://www.lambdatest.com";
-  url = "https://www.lambdatest.com/enterprise";
+  url = "https://www.lambdatest.com/pricing";
   console.log(url);
   await driver
     .get(url)
